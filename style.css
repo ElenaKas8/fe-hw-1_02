@@ -1,0 +1,24 @@
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.card {
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
